@@ -10,7 +10,7 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
      <router-link to="/" active-class="active" tag="a">Home</router-link> |
       <router-link to="/about" tag="a">About</router-link>
-       <router-link to="/blog" tag="a">Blog</router-link>
+       <router-link to="/new-post" tag="a">New Post</router-link>
     
       </ul>
       

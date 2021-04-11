@@ -1,8 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Blog from '../views/Blog.vue';
-
+import NewPost from '../views/NewPost.vue';
+import SingleMovie from '../views/SingleMovie.vue';
 Vue.use(VueRouter);
 
 const routes = [{
@@ -20,9 +20,14 @@ const routes = [{
             import ( /* webpackChunkName: "about" */ "../views/About.vue"),
     },
     {
-        path: "/blog",
-        name: "blog",
-        component: Blog,
+        path: "/new-post",
+        name: "New Post",
+        component: NewPost,
+    },
+    {
+        path: "/movies/:id",
+        name: "SingleMovie",
+        component: SingleMovie,
     },
 ];
 
